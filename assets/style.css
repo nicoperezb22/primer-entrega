@@ -1,0 +1,323 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+/*********  Header **********/
+
+
+
+
+
+
+nav {
+   text-align: center
+}
+
+
+.navbar-brand{
+    font-size: 32px;
+    color: #ff7f50;
+    font-family: "Oswald";
+    font-weight: 700;
+}
+
+
+
+.nav-item{
+    color: #ff7f50;
+}
+
+
+nav ul li {
+  
+    font-size: 1.5rem;
+   
+}
+
+nav ul li a {
+   
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+
+
+
+/********** MAIN **********/
+
+main {
+   
+    background-image: url(pexels-victorfreitas-841130.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: rgb(202, 80, 27);
+    margin-bottom: 20px;
+    font-family: "Oswald";
+    font-weight: 700;
+    text-shadow: 0 0 5px black;
+}
+
+.letras{
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-shadow: 0 0 10px black;
+}
+
+.imagen-main {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+/******  FOOTER *********/
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    
+    font-size: 14px;
+    font-family: "muli";
+    
+}
+
+h4{
+    color: #ff7f50;
+    text-shadow: 0 0 5px black;
+}
+
+
+/********! pagina de contacto ****************/
+
+ .main-contacto{
+    padding: 10px 20px 20px;
+    background-image: url(B&Wgym.jpg);
+}
+
+
+.titulo__contacto{
+    color: #f36100;
+    font-family: "montserrat";
+    font-weight: 400;
+    font-style: normal;
+    /* text-align: center; */
+    background-color: black;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+
+label{
+ 
+ display: inline-block;
+ padding: 5px 0 5px 0;
+ color: #f36100;
+ font-family: "Oswald";
+ font-style: italic;
+ font-weight: bold;
+ text-decoration:underline
+
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 10px 10px;
+
+}
+
+input[type=text]:focus{
+    outline: none;
+}
+
+.submit{
+    text-align: end;
+    margin-top: 10px;
+}
+
+input[type=button]{
+ display: inline-block;
+ text-align: end;
+ padding: 10px; 
+ border-radius: 5px;
+ cursor: pointer;
+ background: linear-gradient(to left, #f36100, #ff7f50 );
+ border: 1.5px solid black;
+    font-family: "montserrat";
+    font-weight: 700;
+} 
+
+/******** pagina de Nosotros ******/
+
+.main__nosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: space-around;
+    background-image: none;
+    background-color: black;
+    color: #f4f4f4;
+    
+}
+
+
+.titulo__parrafos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 90%;
+}
+
+
+.titulo__parrafos {
+    color: #f36100;
+    text-shadow: 0 0 10px black;
+}
+
+
+
+
+
+/*******  Pagina de clases ********/
+
+
+.main__clases{
+    background-image: none;
+    
+    
+}
+
+
+.titulo__clases{
+    text-align: center;
+    font-family: "oswald";
+}
+
+
+
+.card__clases {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100%; 
+    background: #fff; 
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.92); 
+}
+
+
+.card__clases:hover{
+    opacity: .8;
+
+    
+}
+
+.imagen__clases {
+    width: 100%;  
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 10px; /
+}
+
+
+.texto__clases {
+    flex-grow: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.texto__clases > h5{
+    font-family: "montserrat";
+    color: #f36100;
+}
+
+.texto__clases > p{
+    font-family: "montserrat";
+    font-weight: 700;
+}
+
+
+/****** pagina planes *********/
+
+/* Estilos para el video de fondo */
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  /* Para que el contenido se vea bien sobre el video */
+  .main__planes {
+    position: relative;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+  }
+
+
+  .card {
+  
+    color: black;
+    border-radius: 10px; 
+    overflow: hidden;
+    height: 100%;
+  }
+
+  .card-body {
+    padding: 20px;
+  }
+
+.card-body > h5{
+    font-family: "Montserrat";
+}
+
+
+
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .card-text {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .btn-primary {
+    background-color: #2980b9;
+    border-color: #2980b9;
+  }
+
+  .btn-primary:hover {
+    background-color: #3498db;
+    border-color: #3498db;
+  }
