@@ -70,23 +70,32 @@
 
 
     <main class="main-contacto min-vh-100">
-        <h2 class="titulo__contacto">Contacta con el equipo y despeja tus dudas!!</h2>
-        <section>
-            <form action="index.html">
-                <label for="Pnombre">Nombre</label>
-                <input type="text" id="Pnombre" placeholder="tu nombre">
-                <label for="Apellido">Apellido</label>
-                <input type="text" id="Apellido" placeholder="tu Apellido">
-                <label for="email">Correo electronico</label>
-                <input type="text" id="email" placeholder="tu Correo">
-                <label for="Pregunta">Pregunta</label>
-                <input type="text" id="Pregunta" placeholder="tu pregunta">
-                <div class="submit">    
-                <input type="button" value="Enviar">
-                </div> 
+      <div class="container my-5">
+        <div class="row justify-content-center">
+          <div class="col-lg">
+            <h2 class="titulo__contacto text-center mb-4">Formulario de Contacto</h2>
+            <form>
+              <div class="mb-3">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" class="form-control" />
+              </div>
+              <div class="mb-3">
+                <label for="email">Correo Electrónico</label>
+                <input type="text" id="email" name="email" class="form-control" />
+              </div>
+              <div class="mb-3">
+                <label for="mensaje">Mensaje</label>
+                <input type="text" id="mensaje" name="mensaje" class="form-control" />
+              </div>
+              <div class="submit text-end">
+                <input type="button" value="Enviar" class="btn btn-warning" />
+              </div>
             </form>
-        </section>
-    </main>
+          </div>
+        </div>
+      </div>
+      </main>
+
     <footer>
         <h4>2025 Fitness Life Store. Todos los derechos reservados</h4>
     </footer>
