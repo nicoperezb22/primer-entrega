@@ -60,7 +60,7 @@ nav ul li a {
 
 main {
    
-    background-image: url(pexels-victorfreitas-841130.jpg);
+    background-image: url(/assets/img/pexels-victorfreitas-841130.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -111,7 +111,7 @@ h4{
 
  .main-contacto{
     padding: 10px 20px 20px;
-    background-image: url(B&Wgym.jpg);
+    background-image: url(/assets/img/B&Wgym.jpg);
 }
 
 
