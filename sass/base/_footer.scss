@@ -1,3 +1,5 @@
+@use "mixins" as *;
+
 footer {
     text-align: center;
     padding: 20px;
@@ -8,5 +10,5 @@ footer {
   
   h4 {
     color: #ff7f50;
-    text-shadow: 0 0 5px black;
+    @include sombra-texto(black,10px);
   }

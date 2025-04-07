@@ -1,4 +1,8 @@
 @use "../base/variables" as *;
+@use "../base/mixins" as *;
+
+
+/* main de nosotros*/
 
 .main__nosotros {
     display: flex;
@@ -20,5 +24,5 @@
   
   .titulo__parrafos {
     color: $color-texto;
-    text-shadow: 0 0 10px black;
+    @include sombra-texto(black,10px );
   }
