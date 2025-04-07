@@ -24,16 +24,46 @@
    
     <style>
       .card__basico {
-        background-color: cadetblue ;
+        background-color: #17a2b8; 
+        color: white;
       }
+    
       .card__intermedio {
-        background-color:darkolivegreen;
+        background-color: #ffc107; 
+        color: black;
       }
+    
       .card__avanzado {
-        background-color: firebrick ;
+        background-color: #dc3545; 
+        color: white;
       }
-
+    
       
+      .card .btn {
+        font-weight: bold;
+        border: none;
+      }
+    
+      .card__basico .btn {
+        background-color: white;
+        color: #17a2b8;
+      }
+    
+      .card__intermedio .btn {
+        background-color: white;
+        color: #ffc107;
+      }
+    
+      .card__avanzado .btn {
+        background-color: white;
+        color: #dc3545;
+      }
+    
+      .card__basico .btn:hover,
+      .card__intermedio .btn:hover,
+      .card__avanzado .btn:hover {
+        opacity: 0.9;
+      }
     </style>
   </head>
   <body>

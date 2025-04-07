@@ -31,18 +31,14 @@ label{
 
 }
 
-form input[type="text"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  form input[type="text"]:focus {
-    outline: none;
-    border-color: #f36100;
-    box-shadow: 0 0 5px rgba(243, 97, 0, 0.5);
-  }
+input[type=text] {
+  width: 100%;
+  padding: 10px 10px;
+}
+
+input[type=text]:focus {
+  outline: none;
+}
 
 .submit{
     text-align: end;
