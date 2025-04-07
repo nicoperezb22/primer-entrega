@@ -1,0 +1,27 @@
+@use "../base/variables" as *;
+
+/********** MAIN index **********/
+
+main {
+   
+    background-image: url(/assets/img/pexels-victorfreitas-841130.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: $color-titulo;
+    margin-bottom: 20px;
+    font-family: "Oswald";
+    font-weight: 700;
+    text-shadow: 0 0 5px black;
+}
+
+.letras{
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-shadow: 0 0 10px black;
+}

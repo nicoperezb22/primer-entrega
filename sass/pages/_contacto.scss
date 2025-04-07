@@ -1,0 +1,57 @@
+@use "../base/variables" as *;
+
+.main-contacto{
+    padding: 10px 20px 20px;
+    background-image: url(/assets/img/B&Wgym.jpg);
+}
+
+
+.titulo__contacto{
+    color: $color-texto ;
+    font-family: $fuente-mont;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+
+label{
+ 
+ display: inline-block;
+ padding: 5px 0 5px 0;
+ color: $color-texto;
+ font-family:$fuente-osw ;
+ font-style: italic;
+ font-weight: bold;
+ text-decoration:underline
+
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 10px 10px;
+
+}
+
+input[type=text]:focus{
+    outline: none;
+}
+
+.submit{
+    text-align: end;
+    margin-top: 10px;
+}
+
+input[type=button]{
+ display: inline-block;
+ text-align: end;
+ padding: 10px; 
+ border-radius: 5px;
+ cursor: pointer;
+ background: linear-gradient(to left, #f36100, #ff7f50 );
+ border: 1.5px solid black;
+    font-family: $fuente-mont;
+    font-weight: 700;
+} 

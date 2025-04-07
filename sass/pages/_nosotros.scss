@@ -1,0 +1,24 @@
+@use "../base/variables" as *;
+
+.main__nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: space-around;
+    background-image: none;
+    background-color: black;
+    color: #f4f4f4;
+  }
+  
+  .titulo__parrafos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 90%;
+  }
+  
+  .titulo__parrafos {
+    color: $color-texto;
+    text-shadow: 0 0 10px black;
+  }
